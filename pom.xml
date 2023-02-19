@@ -33,6 +33,11 @@
 				<version>6.4.0</version>
 			</dependency>
 			<dependency>
+				<groupId>com.github.spotbugs</groupId>
+				<artifactId>spotbugs</artifactId>
+				<version>4.7.3</version>
+            </dependency>
+			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-core</artifactId>
 				<version>2.14.2</version>
@@ -61,7 +66,7 @@
 			<dependency>
 				<groupId>com.google.protobuf</groupId>
 				<artifactId>protobuf-java</artifactId>
-				<version>3.21.12</version>
+				<version>3.22.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.telegram</groupId>
