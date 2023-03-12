@@ -42,20 +42,10 @@
 				<version>2.14.2</version>
 			</dependency>
 			<dependency>
-				<groupId>com.fasterxml.jackson.dataformat</groupId>
-				<artifactId>jackson-dataformat-yaml</artifactId>
-				<version>2.14.2</version>
-			</dependency>
-			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
 				<version>2.14.2</version>
-			</dependency>
-			<dependency>
-				<groupId>com.fasterxml.jackson.core</groupId>
-				<artifactId>jackson-databind</artifactId>
-				<version>2.14.2</version>
-			</dependency>
+			</dependency>			
 			<dependency>
 				<groupId>edu.berkeley.cs.jqf</groupId>
 				<artifactId>jqf-fuzz</artifactId>
@@ -275,28 +265,28 @@
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
-				<version>${apache.commons-lang3.version}</version>
+				<version>3.12.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.atomashpolskiy</groupId>
 				<artifactId>bt-core</artifactId>
-				<version>${bt-version}</version>
+				<version>1.10</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.atomashpolskiy</groupId>
 				<artifactId>bt-http-tracker-client</artifactId>
-				<version>${bt-version}</version>
+				<version>1.10</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.atomashpolskiy</groupId>
 				<artifactId>bt-dht</artifactId>
-				<version>${bt-version}</version>
+				<version>1.10</version>
 			</dependency>
 			<dependency>
 				<groupId>com.google.jimfs</groupId>
 				<artifactId>jimfs</artifactId>
 				<scope>compile</scope>
-				<version>${google.jimfs.version}</version>
+				<version>1.2</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
